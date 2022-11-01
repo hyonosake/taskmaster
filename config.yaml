@@ -1,0 +1,4 @@
+settings:
+  config_path: "/tasks.yaml"
+  log_path: ""
+  log_level: 0

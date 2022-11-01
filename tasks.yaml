@@ -1,0 +1,17 @@
+tasks:
+  - name: ls
+    options:
+      command: /bin/ls
+      flags: -l -a -R
+      stdin: hhshdhdh
+      stdout: hhhehehhe
+      stderr: kkeekkeke
+      repeating: true
+      interval: 10s
+  - name: wc
+    options:
+      command: usr/bin/wc
+      flags: -w
+      stdin: ""
+      stdout: ""
+      stderr: ""
